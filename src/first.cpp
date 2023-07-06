@@ -1,14 +1,16 @@
-//Desc : first cpp hello world program
-//Date : 05 jul 2023
+// Desc : first cpp hello world program
+// Date : 05 jul 2023
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
-    cout<<"----------------------------------------------------------"<<endl;
+int main()
+{
+    cout << "---------------------------------------------------------" << endl;
 
-    cout<<"Hello World";
+    cout << "Hello World";
 
-    cout<<endl<<"----------------------------------------------------------"<<endl;
+    cout << endl
+         << "---------------------------------------------------------" << endl;
     return 0;
-}   
+}
