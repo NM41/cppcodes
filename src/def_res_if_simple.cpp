@@ -40,9 +40,9 @@ int main()
 {
     cout << "----------------------------------------------------------" << endl;
 
-    Student stud1;
-    stud1.inputMarks();
-    stud1.displayResult();
+    Student Neon;
+    Neon.inputMarks();
+    Neon.displayResult();
 
     cout << "\n----------------------------------------------------------" << endl;
     return 0;

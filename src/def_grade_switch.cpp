@@ -65,9 +65,9 @@ int main()
 {
     cout << "----------------------------------------------------------" << endl;
 
-    Student mohit;
-    mohit.getMarks();
-    mohit.earnedGrade();
+    Student Neon;
+    Neon.getMarks();
+    Neon.earnedGrade();
 
     cout << "----------------------------------------------------------" << endl;
     return 0;
