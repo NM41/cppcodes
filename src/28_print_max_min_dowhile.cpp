@@ -17,7 +17,7 @@ int main()
         if (num > max)
             max = num;
         if (num < min)
-            min = num;
+            min = num;if(num == -999) break;
         cout << "Enter a number : ";
         cin >> num;
     } while (num != -999);
