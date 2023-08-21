@@ -1,4 +1,4 @@
-// Desc : while loop
+// Desc : while do while loop
 // Date : unknown (20 aug) 2023
 #include <iostream>
 using namespace std;
