@@ -35,9 +35,9 @@ void Student :: result() {
         total += marks[i];
         cout<<marks[i]<<"\t";
     }    
-    cout<<total;
     double per = total/3.0;
-    cout<<per;
+    cout<<total<<"\t"<<per;
+    
     cout<<endl;
 }
 
