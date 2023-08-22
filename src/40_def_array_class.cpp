@@ -13,6 +13,7 @@ class Student
     int marks[size];
 
 public:
+    int total = 0;
     void getInfo();
     void result();
 };
@@ -23,35 +24,39 @@ void Student ::getInfo()
     cin >> rollNo;
     cout << "Enter name : ";
     cin >> name;
-    for(int i = 0 ; i < size; i++){
-        cout<<"Enter marks of sub "<<i+1<<" : ";
-        cin>>marks[i];
+    for (int i = 0; i < size; i++)
+    {
+        cout << "Enter marks of sub " << i + 1 << " : ";
+        cin >> marks[i];
     }
 }
-void Student :: result() {
-    int total = 0;
-    cout<<rollNo<<"\t"<<name<<"\t";
-    for(int i=0; i<size; i++){
+void Student ::result()
+{
+    cout << rollNo << "\t" << name << "\t";
+    for (int i = 0; i < size; i++)
+    {
         total += marks[i];
-        cout<<marks[i]<<"\t";
-    }    
-    double per = total/3.0;
-    cout<<total<<"\t"<<per;
-    
-    cout<<endl;
+        cout << marks[i] << "\t";
+    }
+    double per = total / 3.0;
+    cout << total << "\t" << per;
+    cout << endl;
 }
 
 int main()
 {
     cout << "----------------------------------------------------------" << endl;
 
-    Student stud[5];
-    for(int i = 0; i<2;i++)
+    const int n = 5;
+    Student stud[n];
+
+    for (int i = 0; i < n; i++)
         stud[i].getInfo();
-    cout<<"RollNo \t Name \tsub1 \tsub2 \tsub3 \ttotal \tper"<<endl;
-    for(int i = 0; i<2;i++)
+
+    cout << "RollNo \t Name \tsub1 \tsub2 \tsub3 \ttotal \tper" << endl;
+    for (int i = 0; i < n; i++)
         stud[i].result();
-    
+
     cout << "\n----------------------------------------------------------" << endl;
     return 0;
 }
