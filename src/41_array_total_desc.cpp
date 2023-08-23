@@ -1,5 +1,5 @@
-// Desc : demo
-// Date : DD MMM n0n3
+// Desc : descending order of total
+// Date : 23 aug 2023
 
 #include <iostream>
 using namespace std;
