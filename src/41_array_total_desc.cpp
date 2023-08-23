@@ -56,17 +56,9 @@ void Student::result()
     cout << total << "\t" << per;
     cout << endl;
 }
-int main()
+
+void desc(Student stud[], int n)
 {
-    cout << "----------------------------------------------------------" << endl;
-
-    const int n = 5;
-    Student stud[n];
-    for (int i = 0; i < n; i++)
-    {
-        stud[i].getInfo();
-    }
-
     for (int i = 0; i < n; i++)
     {
         for (int j = i + 1; j < n; j++)
@@ -77,6 +69,18 @@ int main()
             }
         }
     }
+}
+int main()
+{
+    cout << "----------------------------------------------------------" << endl;
+
+    const int n = 5;
+    Student stud[n];
+    for (int i = 0; i < n; i++)
+    {
+        stud[i].getInfo();
+    }
+    desc(stud,n);
     cout << "----------------------------------------------------------" << endl;
     cout << "RollNo \t Name \tsub1 \tsubn \tsub3 \ttotal \tper" << endl;
     cout << "----------------------------------------------------------" << endl;
