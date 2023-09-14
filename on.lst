@@ -1,0 +1,15 @@
+SQL> select * from CONTACT_INFO;
+
+NM                                                                              
+--------------------------------------------------------------------------------
+    BPHONE     CPHONE     HPHONE
+---------- ---------- ----------
+                                                                            NEON
+  85698547   85699665   84578547
+                                                                            NYEN
+             94299665   98678547
+                                                                           NHUUY
+                        87785469
+
+SQL> spool C:\Users\HP\Desktop\oraput.txt
+
