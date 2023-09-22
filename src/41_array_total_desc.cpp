@@ -74,7 +74,7 @@ int main()
 {
     cout << "----------------------------------------------------------" << endl;
 
-    const int n = 5;
+    const int n = 3;
     Student stud[n];
     for (int i = 0; i < n; i++)
     {
